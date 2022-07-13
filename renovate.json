@@ -1,8 +1,3 @@
 {
-    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-    "dependencyDashboard": true,
-    "packageRules": [{
-        "matchPackageNames": ["fastlane"],
-        "labels": ["linting"]
-    }]
+    "extends": "config:base"
 }
