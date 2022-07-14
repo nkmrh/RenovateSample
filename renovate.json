@@ -7,10 +7,18 @@
     ],
     "rangeStrategy": "update-lockfile",
     "regexManagers": [{
-        "fileMatch": ["^project.yml$"],
-        "matchStrings": [
-            "url:\\shttps:\/\/github.com\/(?<depName>.*?).git\\s.*:\\s(?<currentValue>.*)"
-        ],
-        "datasourceTemplate": "github-releases"
-    }]
+            "fileMatch": ["^project.yml$"],
+            "matchStrings": [
+                "url:\\shttps:\/\/github.com\/(?<depName>.*?).git\\s.*:\\s(?<currentValue>.*)"
+            ],
+            "datasourceTemplate": "github-releases"
+        },
+        {
+            "fileMatch": ["^Mint$"],
+            "matchStrings": [
+                "(?<depName>.*?)@(?<currentValue>.*)"
+            ],
+            "datasourceTemplate": "github-releases"
+        }
+    ]
 }
