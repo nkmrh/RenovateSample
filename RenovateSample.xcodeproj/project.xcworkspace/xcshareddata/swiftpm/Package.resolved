@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "swift-algorithms",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-algorithms.git",
+      "state" : {
+        "revision" : "6cffd04a4f09cb9111d98ee70dc4314fcb5fc56e",
+        "version" : "0.0.1"
+      }
+    }
+  ],
+  "version" : 2
+}
