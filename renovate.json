@@ -9,7 +9,7 @@
     "regexManagers": [{
         "fileMatch": ["^project.yml$"],
         "matchStrings": [
-            "url:\\shttps:\/\/github.com\/(?<depName>.*?).git\\s.*:\\s(?<currentValue>.*)"
+            "url:\\shttps:\/\/github.com\/(?<depName>.*?).git\\s.*:\\s(?<currentValue>[0-9.]+)"
         ],
         "datasourceTemplate": "github-releases"
     }]
