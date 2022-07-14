@@ -14,7 +14,7 @@
             "datasourceTemplate": "github-releases"
         },
         {
-            "fileMatch": ["^Mint$"],
+            "fileMatch": ["^Mintfile$"],
             "matchStrings": [
                 "(?<depName>.*?)@(?<currentValue>.*)"
             ],
