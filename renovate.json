@@ -2,5 +2,12 @@
     "extends": [
         "config:base"
     ],
-    "rangeStrategy": "update-lockfile"
+    "rangeStrategy": "update-lockfile",
+    "regexManagers": [{
+        "fileMatch": ["^project.yml$"],
+        "matchStrings": [
+            "url: https:\\/\\/github\\.com\\/(?<depName>.*?)\\s*versions: (?<currentValue>.*)\\s"
+        ],
+        "datasourceTemplate": "github-releases"
+    }]
 }
