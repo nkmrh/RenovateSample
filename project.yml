@@ -1,0 +1,4 @@
+packages:
+  PartialSheet:
+    url: https://github.com/AndreaMiotto/PartialSheet.git
+    exactVersion: 2.1.12
