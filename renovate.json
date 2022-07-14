@@ -6,7 +6,7 @@
     "regexManagers": [{
         "fileMatch": ["^project.yml$"],
         "matchStrings": [
-            "url: https:\\/\\/github\\.com\\/(?<depName>.*?)\\s*Versions: (?<currentValue>.*)\\s"
+            "url:\\shttps:\/\/github.com\/(?<depName>.*?).git\\s.*:\\s(?<currentValue>.*)"
         ],
         "datasourceTemplate": "github-releases"
     }]
