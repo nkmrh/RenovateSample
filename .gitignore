@@ -88,3 +88,13 @@ fastlane/test_output
 # https://github.com/johnno1962/injectionforxcode
 
 iOSInjectionProject/
+
+# Check in the Package.resolved file so that everyone is on the same versions
+RenovateSample.xcodeproj/*
+!RenovateSample.xcodeproj/project.xcworkspace
+RenovateSample.xcodeproj/project.xcworkspace/*
+!RenovateSample.xcodeproj/project.xcworkspace/xcshareddata
+RenovateSample.xcodeproj/project.xcworkspace/xcshareddata/*
+!RenovateSample.xcodeproj/project.xcworkspace/xcshareddata/swiftpm
+RenovateSample.xcodeproj/project.xcworkspace/xcshareddata/swiftpm/*
+!RenovateSample.xcodeproj/project.xcworkspace/xcshareddata/swiftpm/Package.resolved

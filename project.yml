@@ -1,7 +1,8 @@
+name: RenovateSample
 packages:
   PartialSheet:
     url: https://github.com/AndreaMiotto/PartialSheet.git
     exactVersion: 2.1.12
-KeychainAccess:
-  url: https://github.com/kishikawakatsumi/KeychainAccess.git
-  exactVersion: 4.2.1
+  KeychainAccess:
+    url: https://github.com/kishikawakatsumi/KeychainAccess.git
+    exactVersion: 4.2.1

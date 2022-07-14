@@ -1,12 +1,21 @@
 {
   "pins" : [
     {
-      "identity" : "swift-algorithms",
+      "identity" : "keychainaccess",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/apple/swift-algorithms.git",
+      "location" : "https://github.com/kishikawakatsumi/KeychainAccess.git",
       "state" : {
-        "revision" : "6cffd04a4f09cb9111d98ee70dc4314fcb5fc56e",
-        "version" : "0.0.1"
+        "revision" : "654d52d30f3dd4592e944c3e0bccb53178c992f6",
+        "version" : "4.2.1"
+      }
+    },
+    {
+      "identity" : "partialsheet",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/AndreaMiotto/PartialSheet.git",
+      "state" : {
+        "revision" : "45b8e76c67aaa799e65e607930efc3b1dac07a1c",
+        "version" : "2.1.12"
       }
     }
   ],
