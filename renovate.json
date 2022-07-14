@@ -12,5 +12,8 @@
             "url:\\shttps:\/\/github.com\/(?<depName>.*?).git\\s.*:\\s(?<currentValue>.*)"
         ],
         "datasourceTemplate": "github-releases"
-    }]
+    }],
+    "swift": {
+        "fileMatch": ["(^|/)Package\\.resolved"]
+    }
 }
