@@ -14,6 +14,6 @@
         "datasourceTemplate": "github-releases"
     }],
     "swift": {
-        "fileMatch": ["(^|/)Package\\.resolved"]
+        "fileMatch": [".*Package.resolved"]
     }
 }
