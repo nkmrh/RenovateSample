@@ -3,7 +3,7 @@ name: Update Package.resolved when Renovate update project.yml
 on:
   pull_request:
     paths:
-      - '**/project.yml'
+      - 'project.yml'
 
 jobs:
   get-file-changes:
