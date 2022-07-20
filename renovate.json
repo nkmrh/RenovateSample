@@ -11,7 +11,7 @@
             "matchStrings": [
                 "url:\\shttps:\/\/github.com\/(?<depName>.*?).git\\s.*:\\s(?<currentValue>.*)"
             ],
-            "extractVersionTemplate": "^v/(?<version>.*)$",
+            "extractVersionTemplate": "^v(?<version>.*)$",
             "datasourceTemplate": "github-releases"
         },
         {
