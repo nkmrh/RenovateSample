@@ -18,7 +18,7 @@ jobs:
   update:
     runs-on: macos-latest
     needs: get-file-changes
-    if: contains(fromJson(needs.precheck.outputs.files_changed), 'Package.resolved') == false
+    if: contains(fromJson(needs.get-file-changes.outputs.files_changed), 'Package.resolved') == false
     steps:
       - uses: actions/checkout@v3
       - run: xcodebuild -resolvePackageDependencies
