@@ -21,6 +21,7 @@ jobs:
     if: contains(fromJson(needs.get-file-changes.outputs.files_changed), 'Package.resolved') == false
     steps:
       - uses: actions/checkout@v3
+      - run: mint bootstrap
       - run: make codegen
       - run: xcodebuild -resolvePackageDependencies
       - uses: stefanzweifel/git-auto-commit-action@v4
