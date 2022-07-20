@@ -1,4 +1,4 @@
-name: Update Package.resolved when Renovate updated project.yml
+name: Update Package.resolved when Renovate update project.yml
 
 on:
   pull_request:
