@@ -1,4 +1,8 @@
 name: RenovateSample
+targets:
+  RenovateSample:
+    type: application
+    platform: iOS
 packages:
   PartialSheet:
     url: https://github.com/AndreaMiotto/PartialSheet.git
