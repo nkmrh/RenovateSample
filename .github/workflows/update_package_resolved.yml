@@ -2,8 +2,10 @@ name: Update Package.resolved
 
 on:
   pull_request:
+    branches:
+      - 'renovate/**'
     paths:
-      - '**/Package.resolved'
+      - '**/project.yml'
 
 jobs:
   precheck:
