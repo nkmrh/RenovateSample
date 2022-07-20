@@ -11,7 +11,8 @@
             "matchStrings": [
                 "url:\\shttps:\/\/github.com\/(?<depName>.*?).git\\s.*:\\s(?<currentValue>.*)"
             ],
-            "datasourceTemplate": "github-releases"
+            "datasourceTemplate": "github-releases",
+            "versioning": "swift"
         },
         {
             "fileMatch": ["^Mintfile$"],
