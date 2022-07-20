@@ -3,6 +3,17 @@ targets:
   RenovateSample:
     type: application
     platform: iOS
+    sources: RenovateSample
+settings:
+  base:
+    APP_SHORT_VERSION: 0.0.0
+    IPHONEOS_DEPLOYMENT_TARGET: 14.0
+    SWIFT_VERSION: 5.5
+schemes:
+  RenovateSample:
+    build:
+      targets:
+        RenovateSample: all
 packages:
   PartialSheet:
     url: https://github.com/AndreaMiotto/PartialSheet.git
