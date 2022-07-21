@@ -6,6 +6,7 @@ on:
       - opened
     paths-ignore:
       - 'project.yml'
+      - 'middleware/**'
 
 jobs:
   update-package-resolved:
