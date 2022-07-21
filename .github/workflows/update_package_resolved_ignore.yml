@@ -4,6 +4,8 @@ on:
   pull_request:
     types:
       - opened
+    paths-ignore:
+      - 'project.yml'
 
 jobs:
   update-package-resolved:
