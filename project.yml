@@ -6,7 +6,7 @@ targets:
     sources: RenovateSample
 settings:
   base:
-    APP_SHORT_VERSION: 0.0.0
+    APP_SHORT_VERSION: 0.0.1
     IPHONEOS_DEPLOYMENT_TARGET: 14.0
     SWIFT_VERSION: 5.5
 schemes:
