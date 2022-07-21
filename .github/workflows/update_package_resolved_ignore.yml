@@ -1,0 +1,14 @@
+name: Update Package.resolved when Renovate update project.yml
+
+on:
+  pull_request:
+    types:
+      - opened
+    paths-ignore:
+      - 'project.yml'
+
+jobs:
+  update-package-resolved:
+    runs-on: ubuntu-latest
+    steps:
+      - run: 'echo "No update-package-resolved required"'
