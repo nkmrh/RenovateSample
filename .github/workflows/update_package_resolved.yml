@@ -2,6 +2,8 @@ name: Update Package.resolved when Renovate update project.yml
 
 on:
   pull_request:
+    types:
+      - opened
     paths:
       - 'project.yml'
 
