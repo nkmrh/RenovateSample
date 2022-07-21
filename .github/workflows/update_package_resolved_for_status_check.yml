@@ -8,7 +8,7 @@ on:
       - 'project.yml'
 
 jobs:
-  build:
+  update-package-resolved:
     runs-on: ubuntu-latest
     steps:
       - run: 'echo "No needs update-package-resolved required" '
