@@ -23,4 +23,4 @@ packages:
     exactVersion: 4.2.1
   Firebase:
     url: https://github.com/firebase/firebase-ios-sdk.git
-    exactVersion: 8.10.0
+    exactVersion: 8.15.0
